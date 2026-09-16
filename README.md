@@ -50,7 +50,7 @@ Puppeteer로 실제 페이지를 띄워 렌더링된 DOM에서 값을 읽는 쪽
 ## 실행
 
 ```bash
-git clone https://github.com/crushonyou2/dragonball.git
+git clone https://github.com/jgjoe/dragonball.git
 ```
 
 ```bash
@@ -82,5 +82,5 @@ cd backend && npm test
 
 **Jigwan Joe** — Backend
 
-- GitHub: [@crushonyou2](https://github.com/crushonyou2)
+- GitHub: [@jgjoe](https://github.com/jgjoe)
 - Email: jigwan.joe@gmail.com
