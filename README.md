@@ -5,7 +5,7 @@
 [![Backend](https://img.shields.io/badge/Node.js%20%2B%20Express-TypeScript-3178C6?logo=typescript&logoColor=white)](#기술-스택)
 [![Crawler](https://img.shields.io/badge/crawler-Puppeteer-40B5A4?logo=puppeteer&logoColor=white)](#설계-판단)
 [![DB](https://img.shields.io/badge/MongoDB-document%20store-47A248?logo=mongodb&logoColor=white)](#기술-스택)
-[![Tests](https://img.shields.io/badge/tests-Jest-C21325?logo=jest&logoColor=white)](#테스트)
+[![Tests](https://img.shields.io/badge/tests-Jest-C21325?logo=jest&logoColor=white)](#실행)
 
 PC 부품은 커뮤니티 핫딜 게시판마다 따로 올라와서, 값을 비교하려면 **여러 사이트를 각각 돌아야 합니다.**
 퀘이사존·에펨코리아·ZOD의 핫딜 글을 수집해 하나의 목록으로 정규화하고, 이름 검색과 페이지네이션으로 훑어볼 수 있게 만들었습니다.
@@ -63,20 +63,7 @@ cd backend && npm install && npm run dev
 cd frontend && npm install && npm start
 ```
 
-## 테스트
-
-제품 목록 조회 API를 Jest로 검증합니다.
-
-```bash
-cd backend && npm test
-```
-
-## 범위와 조건
-
-- **개인 학습 프로젝트입니다.** 상시 배포·운영은 하지 않습니다.
-- 정렬은 최근 수집 순 한 가지입니다. 가격순 정렬은 넣지 않았습니다.
-- 수집 대상은 커뮤니티의 공개 게시판 목록이며, 대상 사이트의 마크업이 바뀌면 파서 수정이 필요합니다.
-- 가격 정보는 원글을 그대로 옮긴 것이므로 최종 확인은 원글 링크에서 해야 합니다.
+제품 목록 조회 API 테스트(Jest)는 `cd backend && npm test`로 실행합니다.
 
 ## 만든 사람
 
